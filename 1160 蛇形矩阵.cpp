@@ -3,19 +3,6 @@ using namespace std;
 int Pos;
 int current_n;
 int n;
-
-void right() {
-	Pos++;
-}
-void up() {
-	Pos -= n;
-}
-void left() {
-	Pos--;
-}
-void down() {
-	Pos += n;
-}
 int number = 1;
 int main() {
 	int arr[10000] = { 0 };

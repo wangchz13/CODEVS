@@ -18,6 +18,8 @@ int main() {
 		} else
 			flag = 0;
 		s2[i] += 48;
+		if (!i&&flag)
+			s2.insert(0, 1, '1');
 	}
 	cout << s2;
 	return 0;
